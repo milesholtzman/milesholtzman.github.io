@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script type='text/javascript'>
-        var bgCount = 5;
-        function randomizeBg() {
-            var randomNumber = Math.ceil(Math.random() * bgCount);
-            document.body.background = 'background'+randomNumber+'.png';
-            document.body.style.backgroundSize = "cover"
-        }
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -19,7 +11,10 @@
 </head>
 <body>
      
-    <nav class="navbar navbar-expand-lg navbar-light bg-light flex-nowrap">
+
+<header class="masthead">
+
+<nav class="navbar navbar-expand-sm navbar-light flex-nowrap" role='navigation'>
 
         <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbar5">
             <span class="navbar-toggler-icon"></span>
@@ -62,26 +57,19 @@
         <div class="w-100"><!--spacer--></div>
     </nav>
 
-
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <img src="humidity vs lattitude.png" alt="Humidity Graph">
-          <h1 class="display-4">Cloudsplitter Press</h1>
-          
-          <h1 class="display-4"></h1>
-
-          
-          <p class="lead">This project looks at the relationship between lattitude and various weather phenomena, namely humidity, temperature, wind spped and cloud cover. This data comes from over 900 randomly sampled cities </p>
-        </div>
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="font-weight-light">Welcome</h1>
+        <p1 class="font-weight-light">to</p>
+        <h2 class="font-weight-light"> Cloudsplitter Press </h2>
+        <p2 class="font-weight-light"> an independant press founded by Tony Holtzman </p>
       </div>
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-       
+    </div>
+  </div>
+</header>
+        
+     
 </body>
 </html>
 
