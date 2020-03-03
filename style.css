@@ -8,20 +8,36 @@
 }
 
 .navbar {
-	background-color: #a0a5a3;
+	background-color: #787979;
 	opacity: 0.75; 
     filter:(opacity=75);
     line-height: 1;
 }
 
-p {
+.navbar a.navbar-brand {
+	color: #d6d6d6;
+	display: inline;
+}
+
+a.nav-link {
 	color: #b0b2b1;
+	white-space: nowrap;
+}
+
+p {
+	color: #d6d6d6;
+	opacity: 0.75; 
+    filter:(opacity=75);
 }
 
 h1 {
-	color: #b0b2b1;
+	color: #d6d6d6;
+	opacity: 0.75; 
+    filter:(opacity=75);
 }
 
 h2 {
-	color: #b0b2b1;	
+	color: #d6d6d6;
+	opacity: 0.75; 
+    filter:(opacity=75);
 }
