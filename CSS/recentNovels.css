@@ -244,7 +244,8 @@ hr {
 }
 
 .bodyPadder {
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .bodyReview {
@@ -253,12 +254,13 @@ hr {
 }
 
 .reviewPadder {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .break {
-  margin-bottom: 200px;
+  margin-top: 10px;
+  margin-bottom: 300px;
 }
 
 .section .blameCover {
@@ -279,6 +281,7 @@ hr {
 }
 
 .end {
+  margin-top: 10px;
   margin-bottom: 75px;
 }
 

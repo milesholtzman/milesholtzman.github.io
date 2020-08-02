@@ -17,9 +17,9 @@ function isVisible(element) {
 
 function isLeavingTop(element) {
     let elementBox = element.getBoundingClientRect();
-    let distanceFromTop = 50;
+    let distanceFromTop = 400;
 
-    if(elementBox.top < distanceFromTop) {
+    if(elementBox.bottom < distanceFromTop) {
         return true;
     } else {
         return false;
@@ -28,9 +28,9 @@ function isLeavingTop(element) {
 
 function isReturning(element) {
     let elementBox = element.getBoundingClientRect();
-    let distanceFromTop = 0
+    let distanceFromTop = 300
 
-    if(elementBox.top > distanceFromTop) {
+    if(elementBox.bottom > distanceFromTop) {
         return true;
     } else {
         return false;

@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Brawler&family=Cinzel&family=Cormorant:wght@500&family=Grenze+Gotisch:wght@700&family=Junge&family=Lexend+Deca&family=Merriweather&family=Nothing+You+Could+Do&family=PT+Serif:wght@700&family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
 
     <title>Cloudsplitter Press</title>
@@ -51,56 +52,26 @@
     </div>
   </nav>
 
-<!-- News Bulletin Pop-up-->
+  <div class="block">
+    <h1 class="blockHeader">Cloudsplitter Press</h1>
+    <h2 class="blockDescriptor">Cloudsplitter Press is an independent press founded By Tony Holtzman for the publication of his novels. Its name draws inspiration from the Mohican word "tahawus," meaning "cloudsplitter." Tahawus was the original name of Mount Marcy, a mountain in the High Peaks Region of the Adirondack mountains, and the highest pea in New York State.</h2>
+    <a class="blockLink" href="./HTML/origins.html">click here to learn more about the origins of Cloudsplitter Press</a>
+    <hr class="blockPadder">
+    <h2 class="blockNewsHeader">Recent News</h2>
+    <ol class="blockNewsList">
+      <li class="blockNewsElement"><span class="blockNewsElementDate">July 4, 2020</span> - Tony Holtzman's short story collection has just been published!<a class="blockNewsElementLink" href="./HTML/shortStories.html"> Click here to learn more</a></li>
 
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newsBulletin">
-  News Bulletin Demo
-</button> -->
-
-<!-- Modal -->
-<!-- <div class="modal fade" id="newsBulletin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Recent News</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          <h5>July 4, 2020</h5>
-          <p> 
-            Tony Holtzman's short story collection has been published! Click <a href="./shortStories.html" class="tooltip-test" title="click to view collection">here</a> for more information. </p>
-          <hr>
-          <h5>July 5, 2020</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <hr>
-          <h5>July 6, 2020</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <hr>
-          <h5>July 7, 2020</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <hr>
-          <h5>July 8, 2020</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <hr>
-          <h5>July 9, 2020</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        </div>
-      <div class="modal-footer">
-      </div>
-    </div>
-  </div>
-</div> -->
-
-  <div class="homepage-text text-center">
+  <!-- <div class="homepage-text text-center">
         <h1 class="welcome">Welcome</h1>
         <h1 class="to">to</p>
         <h1 class="cloudsplitter">Cloudsplitter Press</h2>
         <h1 class="clickText"><a class="clickText" href="../HTML/origins.html">click to learn more</h3>
-  </div>
+  </div> -->
 
+<button type="button" class="slide-left">Slide Left</button>
+<button type="button" class="slide-right">Slide Right</button>
+
+<script src="./JS/enter.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
