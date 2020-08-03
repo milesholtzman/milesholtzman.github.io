@@ -119,6 +119,33 @@ hr {
   margin-bottom: 50px;
 }
 
+.headshot {
+  width:75%;
+  height:75%;
+  filter: drop-shadow(-6px 7px 3px rgba(0, 0, 0, 0.39));
+  margin-bottom: 10px;
+}
+
+.authorName {
+  font-family: "Cormorant", serif;
+}
+
+.authorInfoPadder {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.authorInfo {
+  font-family: "Cormorant", serif;
+  margin-bottom: 5px;
+}
+
+.authorInfoKey {
+  font-family: "Cormorant", serif;
+  font-weight: "bolder";
+  margin-bottom: 10px;
+}
+
 .bodyText {
   text-align: left;
   text-indent: 50px;
@@ -136,6 +163,7 @@ hr {
 }
 
 .signature {
+  text-align: left;
   height: 35%;
   width: 35%;
 }

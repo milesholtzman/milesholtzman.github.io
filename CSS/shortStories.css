@@ -262,6 +262,7 @@ hr {
   -ms-overflow-style: none !important;
 }
 
+
 .listElement.story {
   font-weight: bolder;
   font-family: "Cormorant", serif;
@@ -275,4 +276,9 @@ hr {
   font-size:30px;
   line-height: 35px;
  }
+
+ .listPadder {
+  margin-bottom: 350px;
+  margin-top: 15px;
+}
 

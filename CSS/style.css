@@ -71,7 +71,7 @@ html,body {
 
 .navbar {
 	background-color: #f1f1f1;
-  opacity: 0.7;
+  opacity: 0.85;
   line-height: 1;
   width: 100%;
   transition: 1s ease;
@@ -106,6 +106,7 @@ hr {
 }
 
 .block {
+  position: relative;
   background-color: #003349;
   /*border: solid;*/
   /*border-color: #000000;*/
@@ -115,25 +116,28 @@ hr {
   align-items: center;
   text-align: center;
   overflow-y: scroll;
+  z-index: 1;
 }
 
 .blockHeader {
   text-align: center;
   font-family: "Cormorant", serif;
-  font-size: 60px;
+  font-size: 80px;
   color: #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
+  transition: 3s ease;
 }
 
 .blockDescriptor {
   text-align: left;
   font-family: "Cormorant", serif;
-  font-size: 20px;
+  font-size: 25px;
   color: #ffffff;
   padding-right: 20px;
   padding-left: 40px;
   padding-bottom: 30px;
+  transition: 3s ease;
 }
 
 .blockLink {
@@ -145,6 +149,7 @@ hr {
   padding-top: 30px;
   padding-right: 10px;
   padding-left: 10px;
+  transition: 3s ease;
 }
 
 .blockLink:hover {
@@ -158,17 +163,19 @@ hr {
   color: #ffffff;
   padding-top: 15px;
   padding-bottom: 30px;
+  transition: 3s ease;
 }
 
 .blockNewsList {
   text-align: left;
   font-family: "Cormorant", serif;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 25px;
   color: #ffffff;
   padding-right: 20px;
   padding-left: 40px;
   padding-bottom: 30px;
+  transition: 3s ease;
 }
 
 .blockNewsElementDate {
@@ -177,11 +184,14 @@ hr {
   font-size: 30px;
   font-weight: "bolder";
   color: #ffffff;
+  animation-delay: 3s;
+  transition: 3s ease;
 }
 
 .blockNewsElementLink {
   color: #ffffff;
   text-decoration: underline;
+  transition: 3s ease;
 }
 
 .blockNewsElementLink:hover {
@@ -195,14 +205,15 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 1.38;
+  z-index: 0;
 
 }
 
 .welcome {
 	color: #eaf0f2;
 	opacity: 0.8;
-	font-family: 'Bellefair', serif;
-	font-size: 60px; 
+	font-family: 'Cormorant Infant', serif;
+	font-size: 70px; 
 	letter-spacing: 0.1em;
     animation: fadeIn ease 6s;
     -webkit-animation: fadeIn ease 6s;
@@ -211,7 +222,7 @@ hr {
 .to {
 	color: #eaf0f2;
 	opacity: 0.8; 
-	font-family: 'Bellefair', serif;
+	font-family: 'Cormorant Infant', serif;
 	font-size: 30px;
 	letter-spacing: 0.1em;
     animation: fadeIn ease 6s;
@@ -221,8 +232,8 @@ hr {
 .cloudsplitter {
     color: #eaf0f2;
     opacity: 0.8;
-    font-family: 'Bellefair', serif;
-    font-size: 60px; 
+    font-family: 'Cormorant Infant', serif;
+    font-size: 70px; 
     letter-spacing: 0.1em;
     animation: fadeIn ease 6s;
     -webkit-animation: fadeIn ease 6s;
@@ -233,7 +244,7 @@ hr {
     border: none;
     color: #eaf0f2;
     opacity: 0.8; 
-    font-family: 'Bellefair', serif;
+    font-family: 'Cormorant Infant', serif;
     font-size: 30px;
     letter-spacing: 0.1em;
     animation: fadeIn ease 6s;
@@ -243,7 +254,7 @@ hr {
 .clickText:hover {
   color: #ffffff;
     opacity: 0.8; 
-    font-family: 'Bellefair', serif;
+    font-family: 'Cormorant Infant', serif;
     font-size: 30px;
     letter-spacing: 0.1em;
     text-decoration: none;

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-        $(".clickText").click(function(){
+        $(document).click(function(){
             var browserWidth = $(window).width();
             $(".homepage-text").addClass("fadeOut")
             $(".navbar").removeClass("hidden")
@@ -8,6 +8,16 @@ $(document).ready(function(){
             }, {
                 duration: 1000
             });
+            $(".blockHeader").removeClass("hidden")
+            $(".blockDescriptor").removeClass("hidden")
+            $(".blockLink").removeClass("hidden")
+            $(".blockPadder").removeClass("hidden")
+            $(".blockNewsHeader").removeClass("hidden")
+            $(".blockNewsList").removeClass("hidden")
+            $(".blockNewsElement").removeClass("hidden")
+            $(".blockNewsElementDate").removeClass("hidden")
+            $(".blockNewsElementLink").removeClass("hidden")
+
         ;
         });
     });
