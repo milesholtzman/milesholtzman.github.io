@@ -4,7 +4,7 @@ $(document).ready(function(){
             $(".homepage-text").addClass("fadeOut")
             $(".navbar").removeClass("hidden")
             $(".block").animate({
-                width: browserWidth*0.62
+                width: "62vw"
             }, {
                 duration: 1000
             });
